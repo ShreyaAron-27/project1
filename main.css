@@ -3,7 +3,9 @@
 *:before {
 	box-sizing: border-box;
 }
-
+#main{
+	/*position: relative;*/
+}
 /*applying background colour to the page*/
 body{
 	margin: 0px;
@@ -11,6 +13,13 @@ body{
 	display: block;
 	margin-top: 8px;
 }
+/*.navbar{
+	position: fixed;
+}*/
+/*.navbarhead{
+	position: fixed;
+	top: 0;
+}*/
 .mainn{
 	/*margin-top:8px;*/
 	background-color: #e9ebee;
@@ -20,13 +29,16 @@ body{
 }
 #header {
 	background-color: #3b5998;
-	height: 43px;
+	height: 43px; /* height same as facebook*/
 	color: white;
+	position: fixed;
+	top: 0;
+	box-sizing: border-box;
 	/*width: 1200px;*/
-	width: inherit;
+	width: 100%;
 	/*display: flex;*/
 	justify-content: space-between;
-	position: relative;
+	/*position: relative;*/
 	/*height: 10px;*/
 }
 div{
@@ -69,8 +81,9 @@ div{
 }
 #wrapper,#nav{
 	padding: 10px;
-	margin-top: 16px;
+	margin-top: 50px;
 	margin-bottom: 16px;
+	line-height: 16.08px;
 }
 /*applying white colour to the text*/
 .white-text {
@@ -177,30 +190,30 @@ p {
 }
 
 @media only screen and (max-device-width: 480px) {
-		div#wrapper {
-			width: 400px;
-		}
+	div#wrapper {
+		width: 400px;
+	}
 
-		div#header {
-			background-image: url(media-queries-phone.jpg);
-			height: 93px;
-			position: relative;
-		}
+	div#header {
+		background-image: url(media-queries-phone.jpg);
+		height: 93px;
+		position: relative;
+	}
 
-		div#header h1 {
-			font-size: 140%;
-		}
+	div#header h1 {
+		font-size: 140%;
+	}
 
-		#content {
-			float: none;
-			width: 100%;
-		}
+	#content {
+		float: none;
+		width: 100%;
+	}
 
-		#navigation {
-			float:none;
-			width: auto;
-		}
-		body {
+	#navigation {
+		float:none;
+		width: auto;
+	}
+	body {
 		background-image: url(/img/small-bg.png);
 	}
 
@@ -213,13 +226,13 @@ p {
 		background-repeat: no-repeat;
 		min-height: 400px;
 	}
-	}
+}
 /*
 .dr{
-	color: black;
+color: black;
 }*/
 /*.image-post {
-	margin-bottom: 15px;
+margin-bottom: 15px;
 }*/
 
 /*
@@ -242,20 +255,20 @@ font-size: 10px;
 line-height: 1.42857143;
 }*/
 /*.nbar{
-	padding: 20px;
-	font-size: 20px;
+padding: 20px;
+font-size: 20px;
 }*/
 /*.divider{
-	border: 1px solid black;
+border: 1px solid black;
 }*/
 /*.error {
-	background:#ffecec url('images/error.png') no-repeat 10px 50%;
-	border:1px solid #f5aca6;
+background:#ffecec url('images/error.png') no-repeat 10px 50%;
+border:1px solid #f5aca6;
 }*/
 /*
 #button {
-	width:100px;
-	height: 100px;
-	border-radius:100%;
-	background-color:red;
+width:100px;
+height: 100px;
+border-radius:100%;
+background-color:red;
 }*/

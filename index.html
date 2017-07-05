@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Facebook</title>
-    <!-- Bootstrap -->
+  <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- main.css linked-->
   <link rel="stylesheet" type="text/css" href="main.css">
@@ -16,7 +16,7 @@
 <body class="mainn">
   <div class="container">
     <!-- 1)header portion -->
-    <nav class="navbar navbar-default" id="header">
+    <nav class="navbar navbar-default navbar-fixed-top" id="header">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -84,396 +84,508 @@
       <div class="side">
         <div class="hidden-xs col-sm-4 col-md-2" style="margin-top: -12px;"><div id="menu">
           <nav>
-          <ul class="nav nav-pills nav-stacked">
-            <li role="presentation" class="paddi"><img src="http://i.imgur.com/mJkvFco.jpg" class="img-rounded" padding="10px" width="25px" height="25px"><a href="#" id="side">Shreya Aron</a></li>
-            <li role="presentation"class="paddi"><img src="http://www.adweek.com/wp-content/uploads/sites/2/2013/01/news-feed1.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">News Feed</a></li>
-            <li role="presentation" class="paddi"><img src="https://maxcdn.icons8.com/Share/icon/Logos//facebook_messenger1600.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Messenger</a></li>
-          </ul>
-          <ul class="nav nav-pills nav-stacked">
-            <p class="list-heading" class="paddi"> SHORTCUTS </p>
-            <li role="presentation" class="paddi"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmss-ZH-yfktL5tXOHT6OzGmG2tA-gydZPzFsAoKZSR6Alfl7muA" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Candy Crush</a></li>
-            <li role="presentation" class="paddi"><img src="https://s-media-cache-ak0.pinimg.com/736x/c1/26/08/c1260892ed59bf84a84ad5cecccd5880--clash-clans-clash-of-clans-funny.jpg" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Clash Of Clans</a></li>
-            <li role="presentation" class="paddi"><img src="https://i2.wp.com/newscorral.in/wp-content/uploads/2017/02/toi-logo.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Times Of India</a></li>
-          </ul>
-          <ul class="nav nav-pills nav-stacked">
-            <p class="list-heading"> EXPLORE </p>
-            <li role="presentation" class="paddi"><img src="https://cdn.pixabay.com/photo/2016/05/28/19/45/newspaper-1422025_960_720.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Events<span class="badge bd">1</span></a></li>
-            <li role="presentation" class="paddi"><img src="http://4.bp.blogspot.com/-Ww9jN7cQVkQ/VL6Iuwy_wxI/AAAAAAAAAt0/gtOagwFAsKI/s1600/icons128_04.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Pages</a></li>
-            <li role="presentation" class="paddi"><img src="https://lh3.googleusercontent.com/GWfQhWY8bFwJipJZW5zdZ3EPG7oOP88diyyDzYVDJGZde7EcKsF9LbVXETD0RZtusM9R=w300" class="img-rounded" padding="7px" width="25px" height="25px"<a href="#" id="side">Group<span class="badge bd">24</span></a></li>
-            <li role="presentation" class="paddi"><img src="http://www.adweek.com/wp-content/uploads/sites/2/2013/02/friends-2.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Friend lists</a></li>
-            <li role="presentation" class="paddi"><a href="#">
-      <div class="dropdown">
-    <span class="caret"></span>
-  </button>
-    See more..</a></li>
-          </ul>
-          <ul class=" nav-pills nav-stacked" id="head">
-            <p class="list-heading"><b>CREATE</b></p>
-            <li><a href="#">Advert</a></li>
-<li><a href="#">Page</a></li>
-<li><a href="#">Group</a></li>
-          <li><a href="#">Event</a></li>
-        </ul>
-        </div>
-      </nav>
-      </div>
-    </div>
-    <!-- mid portion where posts are displayed -->
-    <div class="col-xs-12 col-sm-8 col-md-7" style="margin-top: -12px;"><div id="main" class="bord">
-      <li role="presentation" class="mid"><a href="#"><span class="glyphicon glyphicon-pencil glyph" aria-hidden="true"></span>Create a post</a></li>
-      <li role="presentation" class="mid"> <i class="	fa fa-image fa-x" aria-hidden="true"></i><a href="#">Photo/Video Album</a></li>
-      <li role="presentation" class="mid"><i class="	glyphicon glyphicon-facetime-video glyph" aria-hidden="true"></i><a href="#">Live Video</a></li>
-      <textarea rows="5" cols="85" placeholder="Share an Update Shreya."></textarea><br>
-<!-- this code has been written to replace textarea and place image into the input field -->
-<!--<div contenteditable="true" style="width:50px;height:50px;">
-      <img src="http://i.imgur.com/mJkvFco.jpg" width="40px" height="40px"/>
-      Share an Update Shreya.<br></div> -->
-      <!-- <div id="button">
-    </div> -->
-    <button type="button" class="rb"><i class="fa fa-smile-o" aria-hidden="true" style="color:red"></i>Feeling/Activity</button>
-    <button type="button" class="rb"><i class="fa fa-picture-o" aria-hidden="true" style="color:green"></i>Photo/Activity</button>
-    <button type="button" class="rb">...</button>
-    <div class="panel panel-default bord">
-      <div class="panel-heading">
-        <!--displaying some posts -->
-        <h3 class="panel-title"><img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="50px" height="50px" ><span><a href="#">Shreya Aron<br></a></span><span id="time"><small>Posted 5 hours ago.</small></span></h3>
-      </div>
-      <div class="panel-body">
-        <div><h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3></div>
-        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-          <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
-        </div>
-      </div>
-      <div class="panel-footer">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" alt="..." padding="10px" width="35px" height="35px">
-            </a>
-          </div>
-          <div class="media-body">
-            <!-- comments of people -->
-            <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Wow, that's really insightful! </p>
-            <!-- Let's add some like,comment and share options as well! -->
-            <div>
-              <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+            <ul class="nav nav-pills nav-stacked">
+              <li role="presentation" class="paddi"><img src="http://i.imgur.com/mJkvFco.jpg" class="img-rounded" padding="10px" width="25px" height="25px"><a href="#" id="side">Shreya Aron</a></li>
+              <li role="presentation"class="paddi"><img src="http://www.adweek.com/wp-content/uploads/sites/2/2013/01/news-feed1.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">News Feed</a></li>
+              <li role="presentation" class="paddi"><img src="https://maxcdn.icons8.com/Share/icon/Logos//facebook_messenger1600.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Messenger</a></li>
+            </ul>
+            <ul class="nav nav-pills nav-stacked">
+              <p class="list-heading" class="paddi"> SHORTCUTS </p>
+              <li role="presentation" class="paddi"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmss-ZH-yfktL5tXOHT6OzGmG2tA-gydZPzFsAoKZSR6Alfl7muA" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Candy Crush</a></li>
+              <li role="presentation" class="paddi"><img src="https://s-media-cache-ak0.pinimg.com/736x/c1/26/08/c1260892ed59bf84a84ad5cecccd5880--clash-clans-clash-of-clans-funny.jpg" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Clash Of Clans</a></li>
+              <li role="presentation" class="paddi"><img src="https://i2.wp.com/newscorral.in/wp-content/uploads/2017/02/toi-logo.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Times Of India</a></li>
+            </ul>
+            <ul class="nav nav-pills nav-stacked">
+              <p class="list-heading"> EXPLORE </p>
+              <li role="presentation" class="paddi"><img src="https://cdn.pixabay.com/photo/2016/05/28/19/45/newspaper-1422025_960_720.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Events<span class="badge bd">1</span></a></li>
+              <li role="presentation" class="paddi"><img src="http://4.bp.blogspot.com/-Ww9jN7cQVkQ/VL6Iuwy_wxI/AAAAAAAAAt0/gtOagwFAsKI/s1600/icons128_04.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Pages</a></li>
+              <li role="presentation" class="paddi"><img src="https://lh3.googleusercontent.com/GWfQhWY8bFwJipJZW5zdZ3EPG7oOP88diyyDzYVDJGZde7EcKsF9LbVXETD0RZtusM9R=w300" class="img-rounded" padding="7px" width="25px" height="25px"<a href="#" id="side">Group<span class="badge bd">24</span></a></li>
+              <li role="presentation" class="paddi"><img src="http://www.adweek.com/wp-content/uploads/sites/2/2013/02/friends-2.png" class="img-rounded" padding="7px" width="25px" height="25px"><a href="#" id="side">Friend lists</a></li>
+              <li role="presentation" class="paddi"><a href="#">
+                <div class="dropdown">
+                  <span class="caret"></span>
+                </button>
+                See more..</a></li>
+              </ul>
+              <ul class=" nav-pills nav-stacked" id="head">
+                <p class="list-heading"><b>CREATE</b></p>
+                <li><a href="#">Advert</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Group</a></li>
+                <li><a href="#">Event</a></li>
+              </ul>
             </div>
-          </div>
+          </nav>
         </div>
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
-            </a>
-          </div>
-          <div class="media-body">
-            <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Very True :P </p>
-            <!-- Let's add some like and comment options as well! -->
-            <div>
-              <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
-            </div>
-          </div>
+      </div>
+      <!-- mid portion where posts are displayed -->
+      <div class="col-xs-12 col-sm-8 col-md-7" style="margin-top: -12px;"><div id="main" class="bord">
+        <li role="presentation" class="mid"><a href="#"><span class="glyphicon glyphicon-pencil glyph" aria-hidden="true"></span>Create a post</a></li>
+        <li role="presentation" class="mid"> <i class="	fa fa-image fa-x" aria-hidden="true"></i><a href="#">Photo/Video Album</a></li>
+        <li role="presentation" class="mid"><i class="	glyphicon glyphicon-facetime-video glyph" aria-hidden="true"></i><a href="#">Live Video</a></li>
+        <textarea rows="5" cols="85" placeholder="Share an Update Shreya."></textarea><br>
+        <!-- this code has been written to replace textarea and place image into the input field -->
+        <!--<div contenteditable="true" style="width:50px;height:50px;">
+        <img src="http://i.imgur.com/mJkvFco.jpg" width="40px" height="40px"/>
+        Share an Update Shreya.<br></div> -->
+        <!-- <div id="button">
+      </div> -->
+      <button type="button" class="rb"><i class="fa fa-smile-o" aria-hidden="true" style="color:red"></i>Feeling/Activity</button>
+      <button type="button" class="rb"><i class="fa fa-picture-o" aria-hidden="true" style="color:green"></i>Photo/Activity</button>
+      <button type="button" class="rb">...</button>
+      <div class="panel panel-default bord">
+        <div class="panel-heading">
+          <!--displaying some posts -->
+          <h3 class="panel-title"><img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="50px" height="50px" ><span><a href="#">Shreya Aron<br></a></span><span id="time"><small>Posted 5 hours ago.</small></span></h3>
         </div>
-        <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
-        <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
-      </div>
-    </div>
-    <!-- image post -->
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/14717094_304522313267997_5070421956592513550_n.jpg?oh=c71657a6eed5b9679581537fe4b4bc83&oe=5A0F6A26"  padding="10px" width="50px" height="50px" ><span><a href="#">Safal Aron<br></a></span><span id="time"><small>Posted 15 hours ago.</small></span></h3>
-      </div>
-      <div class="panel-body">
-        <div><img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive image-post" alt="Responsive image">
+        <div class="panel-body">
+          <div><h3 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h3></div>
           <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
             <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
             <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
           </div>
         </div>
         <div class="panel-footer">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" alt="..." padding="10px" width="35px" height="35px">
+              </a>
+            </div>
+            <div class="media-body">
+              <!-- comments of people -->
+              <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Wow, that's really insightful! </p>
+              <!-- Let's add some like,comment and share options as well! -->
+              <div>
+                <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+                <span><img src="http://www.freeiconspng.com/uploads/facebook-new-like-symbol-32.png" height="20px" width="20px"></span>
+                <span id="time"><small>1 . 14 hours </small></span>
+              </div>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
+              </a>
+            </div>
+            <div class="media-body">
+              <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Very True :P </p>
+              <!-- Let's add some like and comment options as well! -->
+              <div>
+                <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+                <span><img src="http://www.freeiconspng.com/uploads/facebook-new-like-symbol-32.png" height="20px" width="20px"></span>
+                <span id="time"><small>4 . 13 hours </small></span>
+              </div>
+            </div>
+          </div>
           <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
           <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
-          <!-- <small class="post">Press enter</small> -->
         </div>
       </div>
-    </div>
-    <!-- quote post -->
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><img src="http://3.bp.blogspot.com/-rJs7cQXQLvI/UI983J4djGI/AAAAAAAAFYQ/SUYz-zKVIAg/s1600/Stylist+Guy+Profile+Picture+for+Facebook+(11).jpg"  padding="10px" width="50px" height="50px" ><a href="#"><span>Satyam Goel<br></a></span><span id="time"><small>Posted 19 hours ago.</small></span></h3>
-      </div>
-      <div class="panel-body">
-        <div>
-          <blockquote>
-            <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
-            <footer>Walter Scott</footer>
-          </blockquote>
+      <!-- image post -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/14717094_304522313267997_5070421956592513550_n.jpg?oh=c71657a6eed5b9679581537fe4b4bc83&oe=5A0F6A26"  padding="10px" width="50px" height="50px" ><span><a href="#">Safal Aron<br></a></span><span id="time"><small>Posted 15 hours ago.</small></span></h3>
         </div>
-        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-          <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
-        </div>
-      </div>
-      <!-- nested comments -->
-      <div class="panel-footer">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
-            </a>
-          </div>
-          <div class="media-body">
-            <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Very True :P </p>
-            <!-- Let's add some like and comment options as well! -->
-            <div>
-              <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+        <div class="panel-body">
+          <div><img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive image-post" alt="Responsive image">
+            <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+              <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+              <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
             </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
-                </a>
+          </div>
+          <div class="panel-footer">
+            <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
+            <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
+            <!-- <small class="post">Press enter</small> -->
+          </div>
+        </div>
+      </div>
+      <!-- quote post -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><img src="http://3.bp.blogspot.com/-rJs7cQXQLvI/UI983J4djGI/AAAAAAAAFYQ/SUYz-zKVIAg/s1600/Stylist+Guy+Profile+Picture+for+Facebook+(11).jpg"  padding="10px" width="50px" height="50px" ><a href="#"><span>Satyam Goel<br></a></span><span id="time"><small>Posted 19 hours ago.</small></span></h3>
+        </div>
+        <div class="panel-body">
+          <div>
+            <blockquote>
+              <p>All men who have turned out worth anything have had the chief hand in their own education.</p>
+              <footer>Walter Scott</footer>
+            </blockquote>
+          </div>
+          <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+            <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+            <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+          </div>
+        </div>
+        <!-- nested comments -->
+        <div class="panel-footer">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
+              </a>
+            </div>
+            <div class="media-body">
+              <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Very True :P </p>
+              <!-- Let's add some like and comment options as well! -->
+              <div>
+                <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+                <span><img src="http://www.freeiconspng.com/uploads/facebook-new-like-symbol-32.png" height="20px" width="20px"></span>
+                <span id="time"><small>3 . 12 hours </small></span>
               </div>
-              <div class="media-body">
-                <p class="comment"> <span><a href="#">Mohini Gupta </a></span> HeHe :D </p>
-                <!-- Let's add some like and comment options as well! -->.
-                <div>
-                  <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <p class="comment"> <span><a href="#">Mohini Gupta </a></span> HeHe :D </p>
+                  <!-- Let's add some like and comment options as well! -->.
+                  <div>
+                    <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+                    <span><img src="http://www.freeiconspng.com/uploads/facebook-new-like-symbol-32.png" height="20px" width="20px"></span>
+                    <span id="time"><small>2 . 14 hours </small></span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
-        <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
-      </div>
-    </div>
-    <!-- posting a video -->
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><img src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg"  padding="10px" width="50px" height="50px" ><span><a href="#">Madhav Khandelwal<br></a></span><span id="time"><small>Posted 20 hours ago</small></span></h3>
-      </div>
-      <div class="panel-body">
-        <!-- 16:9 aspect ratio -->
-        <iframe width="550" height="315"  src="https://www.youtube.com/embed/gqOEoUR5RHg?autoplay=0">
-        </iframe>
-        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-          <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+          <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
+          <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
         </div>
       </div>
-      <div class="panel-footer">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
-            </a>
+      <!-- posting a video -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><img src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg"  padding="10px" width="50px" height="50px" ><span><a href="#">Madhav Khandelwal<br></a></span><span id="time"><small>Posted 20 hours ago</small></span></h3>
+        </div>
+        <div class="panel-body">
+          <!-- 16:9 aspect ratio -->
+          <iframe width="550" height="315"  src="https://www.youtube.com/embed/gqOEoUR5RHg?autoplay=0">
+          </iframe>
+          <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+            <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+            <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
           </div>
-          <div class="media-body">
-            <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Very True :P </p>
-
-            <!-- Let's add some like and comment options as well! -->
-            <div>
-              <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+        </div>
+        <div class="panel-footer">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
+              </a>
             </div>
-            <div class="media">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
-                </a>
-              </div>
-              <div class="media-body">
-                <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Interesting </p>
+            <div class="media-body">
+              <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Very True :P </p>
 
-                <!-- Let's add some like and comment options as well! -->
-                <div>
-                  <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+              <!-- Let's add some like and comment options as well! -->
+              <div>
+                <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+                <span><img src="http://www.freeiconspng.com/uploads/facebook-new-like-symbol-32.png" height="20px" width="20px"></span>
+                <span id="time"><small>2 . 9 hours </small></span>
+              </div>
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <img class="media-object" src="https://s-media-cache-ak0.pinimg.com/736x/a2/e1/8c/a2e18cbfbcaa8756fe5b40f472eeff45--profile-picture-profile-pics.jpg" padding="10px" width="35px" height="35px">
+                  </a>
+                </div>
+                <div class="media-body">
+                  <p class="comment"> <span><a href="#">Mohini Gupta </a></span> Interesting </p>
+
+                  <!-- Let's add some like and comment options as well! -->
+                  <div>
+                    <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span><span> <a href="#">Share </a></span></small>
+                    <span><img src="http://www.freeiconspng.com/uploads/facebook-new-like-symbol-32.png" height="20px" width="20px"></span>
+                    <span id="time"><small>1 . 3 hours </small></span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
+          <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
         </div>
-        <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
-        <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
+      </div>
+      <!-- posting a gif -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title"><img src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg"  padding="10px" width="50px" height="50px" ><span><a href="#">Madhav Khandelwal<br></a></span><span id="time"><small>Posted 23 hours ago.</small></span></h3>
+        </div>
+        <div class="panel-body">
+          <!-- 16:9 aspect ratio -->
+          <video width="550px" height="500px" autoplay loop>
+            <source src="http://i.imgur.com/GhJo7mE.mp4">
+            </video>
+            <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+              <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+              <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+            </div>
+          </div>
+          <div class="panel-footer">
+            <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
+            <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><img src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg"  padding="10px" width="50px" height="50px" ><span><a href="#">Maddy<br></a></span><span id="time"><small>Posted 23 hours ago.</small></span></h3>
+          </div>
+          <!-- making sliders -->
+          <div class="panel-body">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://www.lacity.org/sites/g/files/wph781/f/styles/tiled_homepage_blog/public/bigstock-Los-Angeles-Skyline-And-Freewa-4583042.jpg?itok=DYo1GpRC" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img src="http://cache.wizardworld.com/files/hero/_1200x630_fit_center-center_100/WW-chicago.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="https://res.cloudinary.com/simpleview/image/upload/c_fill,f_auto,h_510,q_75,w_1280/v1/clients/newyorkstate/dumbo_brooklyn_bridge_park_julienne_schaer_0732_fdff1de5-9486-480c-a1c7-4135d784c75f.jpg" alt="New York">
+    </div>
   </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!-- Trigger the modal with a button -->
+<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+<!-- Modal -->
+<!-- <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog"> -->
+    <!-- Modal content-->
+    <!-- <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
     </div>
-    <!-- posting a gif -->
-<div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title"><img src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg"  padding="10px" width="50px" height="50px" ><span><a href="#">Madhav Khandelwal<br></a></span><span id="time"><small>Posted 23 hours ago.</small></span></h3>
-      </div>
-      <div class="panel-body">
-        <!-- 16:9 aspect ratio -->
-       <video width="550px" height="500px" autoplay loop>
-        <source src="http://i.imgur.com/GhJo7mE.mp4">
-        </video>
-        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-          <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
-        </div>
-      </div>
-      <div class="panel-footer">
-        <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
-        <input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
-      </div>
+
+  </div>
+</div> -->
+        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg" alt="First slide">
     </div>
-    <!-- <div class="panel panel-default">
-      <div class="panel-heading">
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
+<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+  <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+</div>
+</div>
+<div class="panel-footer">
+<img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
+<input placeholder="Write a comment..." style="width: 90%;margin-top: 15px">
+</div>
+</div>
+        <span class="span9 btn-block">
+    <button class="btn btn-large btn-block btn-primary" type="button">Load more...</button>
+</span>
+        <!-- <div class="panel panel-default">
+        <div class="panel-heading">
         <h3 class="panel-title"><img src="https://1.bp.blogspot.com/-orZtjs-GCZk/UWrcOwpOX-I/AAAAAAAACl8/7CkrT1qLBP0/s1600/facebook-profile-pictures45.jpg"  padding="10px" width="50px" height="50px" ><a href="#">Madhav Khandelwal</a></h3>
       </div>
       <div class="panel-body">
-        <ul class="row">
-          <li>
-            <img class="img-responsive" src="http://www.wallpapereast.com/static/images/cities-wallpaper-hd_16BGfe0.jpg" width="60px" height="60px">
-          </li>
-          <li >
-            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOqLkUpamDpXbKUIeJuftk0v4YOdQyQH62ypt_A201mHdNaW6" width="60px" height="60px">
-          </li>
-          <li>
-            <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkyj_6pZ3ERLgolfLITbnyZ4WefeLiRgjhv32nDlgepaBTdKfD" width="60px" height="60px">
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-            <img class="img-responsive" src="http://mytechshout.com/wp-content/uploads/2016/07/Colourfull-leaves-FB-HD-cover-photo.jpg" width="60px" height="60px">
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-            <img class="img-responsive" src="https://www.w3schools.com/css/trolltunga.jpg" width="60px" height="60px">
-          </li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
-            <img class="img-responsive" src="https://www.w3schools.com/css/img_lights.jpg" width="60px" height="60px">
-          </li>
-        </ul>
-        <div class="modal fade" id="my<a href="http://www.jqueryscript.net/tags.php?/Modal/">Modal</a>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-body"> </div>
-            </div>
-          </div>
-        </div>
-        <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
-          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
-          <span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
-        </div>
-      </div>
-      <div class="panel-footer">
-        <img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
-        <input placeholder="Write a comment..." style="width:90%;margin-top: 15px">
-      </div>
-    </div> -->
-  </div>
+      <ul class="row">
+      <li>
+      <img class="img-responsive" src="http://www.wallpapereast.com/static/images/cities-wallpaper-hd_16BGfe0.jpg" width="60px" height="60px">
+    </li>
+    <li >
+    <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKOqLkUpamDpXbKUIeJuftk0v4YOdQyQH62ypt_A201mHdNaW6" width="60px" height="60px">
+  </li>
+  <li>
+  <img class="img-responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkyj_6pZ3ERLgolfLITbnyZ4WefeLiRgjhv32nDlgepaBTdKfD" width="60px" height="60px">
+</li>
+<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+<img class="img-responsive" src="http://mytechshout.com/wp-content/uploads/2016/07/Colourfull-leaves-FB-HD-cover-photo.jpg" width="60px" height="60px">
+</li>
+<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+<img class="img-responsive" src="https://www.w3schools.com/css/trolltunga.jpg" width="60px" height="60px">
+</li>
+<li class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+<img class="img-responsive" src="https://www.w3schools.com/css/img_lights.jpg" width="60px" height="60px">
+</li>
+</ul>
+<div class="modal fade" id="my<a href="http://www.jqueryscript.net/tags.php?/Modal/">Modal</a>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-body"> </div>
+</div>
+</div>
+</div>
+<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+<span><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>Share</span>
+</div>
+</div>
+<div class="panel-footer">
+<img src="http://i.imgur.com/mJkvFco.jpg"  padding="10px" width="40px" height="40px" >
+<input placeholder="Write a comment..." style="width:90%;margin-top: 15px">
+</div>
+</div> -->
+</div>
 </div>
 <!-- right side of mid portion -->
 <div class="hidden-xs hidden-sm col-md-3" style="margin-top: -12px;"><div id="sidebar">
   <div id="sidebar">
-<nav>
-    <!--for birthday notifications -->
-    <div>
-      <div class="bday">
-        <div class="alert-box error"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTux_zVEvJJwVIvXlah_LMAEsqwmKk32wsboR20MBfCtYw2yYmang" width="30px" height="30px"><span><a href="#">BIRTHDAY TODAY<br></span></a></div><a href="#"><img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/14717094_304522313267997_5070421956592513550_n.jpg?oh=38b316b019263f9714a1a45015716a41&oe=5A115A55" width="30px" height="30px">Safal Aron's </a>Birthday is today.<br>Remind them that you are missing them.</div>
-      </div>
-      <ul class="nav nav-tabs ba" role="tablist">
-        <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab"><img src="https://webappstatic.buzzfeed.com/static/images/global/og-image-trending.jpg" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
-        <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><img src="http://theheadlines.co.uk/wp-content/uploads/2016/12/3005338-inline-politics-icon.jpg" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
-        <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://image.freepik.com/free-icon/soccer-ball-variant_318-49974.jpg" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
-        <li role="presentation"><a href="#science" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9rGJpgnR0vYY3uqHjj2xLmSxx5ZlBJHUo8GSz-1fvGiLgs_jGgVGvVpI" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
-        <li role="presentation"><a href="#entertainment" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToTsEXSnTsyqSdEhVS0LX7efn-TIWn6R7lh8ufGDZ4lpoz1yl-mQ" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
-      </ul>
-      <!-- Tab panes (news trending sidebar of facebook)-->
-      <div class="tab-content bday">
-        <div role="tabpanel" class="tab-pane active" id="top">
-          <li>  <a href="#"> Lionel Messi </a><br>
-            Lionel Messi marries Antonella Roccuzzo as teammates past and present turn… ‑ msn.com<br>
-          </li>
-          <li><a href="#">Xi Jinping</a><br>
-            China's Xi says there's no tolerance for subversion in Hong Kong ‑ foxnews.com<br>
-          </li>
-          <li><a href="#">
-            Lashkar-e-Taiba</a>
-            Kashmir: Dialgam gunfight over, Bashir Lashkari among two militants killed ‑ greaterkashmir.com<br>
-          </li>
-          <li><a href="#">See more...</a></li></div>
-          <div role="tabpanel" class="tab-pane" id="politics">
-            <a href="#">Xi Jinping</a><br>
-            China's Xi says there's no tolerance for subversion in Hong Kong ‑ foxnews.com<br>
-            <a href="#">  Narendra Modi</a><br>
-            Tough action against those helping hide black money, over… ‑ economictimes.indiatimes.co<br>
-            <a href="#">
-              Aadhaar</a><br>
-              Tax department notifies form for Aadhaar-PAN linking - The… ‑ economictimes.indiatimes.com<br>
+    <nav>
+      <!--for birthday notifications -->
+      <div>
+        <div class="bday">
+          <div class="alert-box error"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTux_zVEvJJwVIvXlah_LMAEsqwmKk32wsboR20MBfCtYw2yYmang" width="30px" height="30px"><span><a href="#">BIRTHDAY TODAY<br></span></a></div><a href="#"><img src="https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/14717094_304522313267997_5070421956592513550_n.jpg?oh=38b316b019263f9714a1a45015716a41&oe=5A115A55" width="30px" height="30px">Safal Aron's </a>Birthday is today.<br>Remind them that you are missing them.</div>
+        </div>
+        <ul class="nav nav-tabs ba" role="tablist">
+          <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab"><img src="https://webappstatic.buzzfeed.com/static/images/global/og-image-trending.jpg" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
+          <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><img src="http://theheadlines.co.uk/wp-content/uploads/2016/12/3005338-inline-politics-icon.jpg" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
+          <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://image.freepik.com/free-icon/soccer-ball-variant_318-49974.jpg" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
+          <li role="presentation"><a href="#science" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9rGJpgnR0vYY3uqHjj2xLmSxx5ZlBJHUo8GSz-1fvGiLgs_jGgVGvVpI" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
+          <li role="presentation"><a href="#entertainment" aria-controls="messages" role="tab" data-toggle="tab"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToTsEXSnTsyqSdEhVS0LX7efn-TIWn6R7lh8ufGDZ4lpoz1yl-mQ" class="img-rounded" padding="7px" width="15px" height="15px"></a></li>
+        </ul>
+        <!-- Tab panes (news trending sidebar of facebook)-->
+        <div class="tab-content bday">
+          <div role="tabpanel" class="tab-pane active" id="top">
+            <li>  <a href="#"> Lionel Messi </a><br>
+              Lionel Messi marries Antonella Roccuzzo as teammates past and present turn… ‑ msn.com<br>
+            </li>
+            <li><a href="#">Xi Jinping</a><br>
+              China's Xi says there's no tolerance for subversion in Hong Kong ‑ foxnews.com<br>
+            </li>
+            <li><a href="#">
+              Lashkar-e-Taiba</a>
+              Kashmir: Dialgam gunfight over, Bashir Lashkari among two militants killed ‑ greaterkashmir.com<br>
+            </li>
+            <li><a href="#">See more...</a></li></div>
+            <div role="tabpanel" class="tab-pane" id="politics">
+              <a href="#">Xi Jinping</a><br>
+              China's Xi says there's no tolerance for subversion in Hong Kong ‑ foxnews.com<br>
+              <a href="#">  Narendra Modi</a><br>
+              Tough action against those helping hide black money, over… ‑ economictimes.indiatimes.co<br>
               <a href="#">
-                Hizbul Mujahideen</a><br>
-                Hizbul Mujahideen chief Syed Salahuddin vows to fight on ‑ indianexpress.com<br>
+                Aadhaar</a><br>
+                Tax department notifies form for Aadhaar-PAN linking - The… ‑ economictimes.indiatimes.com<br>
                 <a href="#">
-                  Donald Trump</a><br>
-                  US renews pressure on China with an eye on North Korea threat ‑ indiatvnews.com<br>
+                  Hizbul Mujahideen</a><br>
+                  Hizbul Mujahideen chief Syed Salahuddin vows to fight on ‑ indianexpress.com<br>
                   <a href="#">
-                    Rajiv Mehrishi</a><br>
-                    BSF plane with Home Secy comes within ‘500 m to 1 km’ of IndiGo plane,… ‑ indianexpress.com<br>
-                    <a href="#">Learn more</a><br>
-                  </div>
-                  <div role="tabpanel" class="tab-pane" id="sports">
-                    <a href="#">Lionel Messi</a><br>
-                    Lionel Messi marries Antonella Roccuzzo as teammates past and present turn… ‑ msn.com<br>
-                    <a href="#">India vs. West Indies</a><br>
-                    India vs West Indies: ‘Hungry’ Ajinkya Rahane says hard work is paying… ‑ indianexpress.com<br>
-                    <a href="#">FIFA U-17 World Cup</a><br>
-                    India's Under-17 World Cup Matches Shifted From Mumbai To New Delhi… ‑ sports.ndtv.com<br>
-                    <a href="#">Willy Caballero</a><br>
-                    Willy Caballero: Chelsea sign former Manchester City goalkeeper ‑ bbc.co.uk<br>
-                    <a href="#">Venus Williams</a><br>
-                    Venus sued over fatal Florida car crash ‑ au.news.yahoo.com<br>
-                    <a href="#">  Stephen Curry</a><br>
-                    Stephen Curry, Warriors agree to richest NBA deal of all time ‑ nypost.com<br> </div>
-                    <div role="tabpanel" class="tab-pane" id="science">
-                      <a href="#">  Facebook</a><br>
-                      Facebook changes algorithm to curb 'tiny group' of spammers ‑ deccanchronicle.com<br>
-                      <a href="#">Learn more..</a><br>
+                    Donald Trump</a><br>
+                    US renews pressure on China with an eye on North Korea threat ‑ indiatvnews.com<br>
+                    <a href="#">
+                      Rajiv Mehrishi</a><br>
+                      BSF plane with Home Secy comes within ‘500 m to 1 km’ of IndiGo plane,… ‑ indianexpress.com<br>
+                      <a href="#">Learn more</a><br>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="entertainment">
-                      <a href="#">Hizbul Mujahideen</a><br>
-                      Hizbul Mujahideen chief Syed Salahuddin vows to fight on ‑ indianexpress.com<br>
-                      <a href="#">Goods and Services Tax</a><br>
-                      As India enters GST era, small traders are hopeful, yet anxious ‑ in.news.yahoo.com<br>
-                      <a href="#">Azam Khan</a><br>
-                      Have not violated any law or insulted any army: Azam Khan ‑ abplive.in<br>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="bday">
-                      <div class="alert-box">
-                        <div class="si">People you may know<br></div>
-                        <img src="http://4.bp.blogspot.com/-BHhUazKytmw/VbCfWPqrOJI/AAAAAAAAB7c/qj6WVX3du-s/s1600/51b91bba5a3fd9b6c8b9c53bc0ab6c65.jpg" class="imgg" width="40px" height="40px">
-                        <a href="#" class="si">Rimjhim Akhand<br></a>4 mutual friends<br>
-                        <button type="button" class="b"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaqeFDyDUcOxcKGkZg-bGqf9DcQBaMZW7IymOmXn1CtMIN1t2mg"  width="30px" height="30px">Add Friend</button><br>
-                        <img src="https://s-media-cache-ak0.pinimg.com/originals/ca/07/e7/ca07e72628171d200de327a8a74610f7.jpg" class="imgg" width="40px" height="40px">
-                        <a href="#" class="si">Vishal Mishra<br></a>10 mutual friends<br>
-                        <button type="button" class="b"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaqeFDyDUcOxcKGkZg-bGqf9DcQBaMZW7IymOmXn1CtMIN1t2mg" class="imgg" width="30px" height="30px">Add Friend</button><br>
+                    <div role="tabpanel" class="tab-pane" id="sports">
+                      <a href="#">Lionel Messi</a><br>
+                      Lionel Messi marries Antonella Roccuzzo as teammates past and present turn… ‑ msn.com<br>
+                      <a href="#">India vs. West Indies</a><br>
+                      India vs West Indies: ‘Hungry’ Ajinkya Rahane says hard work is paying… ‑ indianexpress.com<br>
+                      <a href="#">FIFA U-17 World Cup</a><br>
+                      India's Under-17 World Cup Matches Shifted From Mumbai To New Delhi… ‑ sports.ndtv.com<br>
+                      <a href="#">Willy Caballero</a><br>
+                      Willy Caballero: Chelsea sign former Manchester City goalkeeper ‑ bbc.co.uk<br>
+                      <a href="#">Venus Williams</a><br>
+                      Venus sued over fatal Florida car crash ‑ au.news.yahoo.com<br>
+                      <a href="#">  Stephen Curry</a><br>
+                      Stephen Curry, Warriors agree to richest NBA deal of all time ‑ nypost.com<br> </div>
+                      <div role="tabpanel" class="tab-pane" id="science">
+                        <a href="#">  Facebook</a><br>
+                        Facebook changes algorithm to curb 'tiny group' of spammers ‑ deccanchronicle.com<br>
+                        <a href="#">Learn more..</a><br>
                       </div>
+                      <div role="tabpanel" class="tab-pane" id="entertainment">
+                        <a href="#">Hizbul Mujahideen</a><br>
+                        Hizbul Mujahideen chief Syed Salahuddin vows to fight on ‑ indianexpress.com<br>
+                        <a href="#">Goods and Services Tax</a><br>
+                        As India enters GST era, small traders are hopeful, yet anxious ‑ in.news.yahoo.com<br>
+                        <a href="#">Azam Khan</a><br>
+                        Have not violated any law or insulted any army: Azam Khan ‑ abplive.in<br>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="bday">
+                        <div class="alert-box">
+                          <div class="si">People you may know<br></div>
+                          <img src="http://4.bp.blogspot.com/-BHhUazKytmw/VbCfWPqrOJI/AAAAAAAAB7c/qj6WVX3du-s/s1600/51b91bba5a3fd9b6c8b9c53bc0ab6c65.jpg" class="imgg" width="40px" height="40px">
+                          <a href="#" class="si">Rimjhim Akhand<br></a>4 mutual friends<br>
+                          <button type="button" class="b"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaqeFDyDUcOxcKGkZg-bGqf9DcQBaMZW7IymOmXn1CtMIN1t2mg"  width="30px" height="30px">Add Friend</button><br>
+                          <img src="https://s-media-cache-ak0.pinimg.com/originals/ca/07/e7/ca07e72628171d200de327a8a74610f7.jpg" class="imgg" width="40px" height="40px">
+                          <a href="#" class="si">Vishal Mishra<br></a>10 mutual friends<br>
+                          <button type="button" class="b"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaqeFDyDUcOxcKGkZg-bGqf9DcQBaMZW7IymOmXn1CtMIN1t2mg" class="imgg" width="30px" height="30px">Add Friend</button><br>
+                        </div>
                       </div>
                     </div>
                   </div>
                   <div>
                   </div>
                 </nav>
-                </div>
               </div>
             </div>
           </div>
-            <!-- footer section -->
-            <footer class="ba">
-              <ul class="nav nav-pills pull-right ">
-                <li role="presentation "><a href="# ">About Us</a></li>
-                <li role="presentation "><a href="# ">Home</a></li>
-                <li role=" presentation "><a href="# ">Privacy</a></li>
-                <li role="presentation "><a href="# ">Advertising</a></li>
-                <li role="presentation "><a href="# ">Cookies</a></li>
-                <li role="presentation "><a href="# ">Ad Choices</a></li>
-              </ul>
-            </footer>
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="js/bootstrap.min.js"></script>
-          </div>
-        </body> <!--ending of footer-->
-        </html> <!--ending of html code-->
+        </div>
+        <!-- footer section -->
+        <footer class="ba">
+          <ul class="nav nav-pills pull-right ">
+            <li role="presentation "><a href="# ">About Us</a></li>
+            <li role="presentation "><a href="# ">Home</a></li>
+            <li role=" presentation "><a href="# ">Privacy</a></li>
+            <li role="presentation "><a href="# ">Advertising</a></li>
+            <li role="presentation "><a href="# ">Cookies</a></li>
+            <li role="presentation "><a href="# ">Ad Choices</a></li>
+          </ul>
+        </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+      </div>
+    </body> <!--ending of footer-->
+    </html> <!--ending of html code-->
